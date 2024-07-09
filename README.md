@@ -1,6 +1,6 @@
 <details>
   <summary>My Skills</summary>
-  
+
   ```html
   <!DOCTYPE html>
   <html lang="en">
@@ -22,6 +22,7 @@
               padding: 20px;
               background: white;
               box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              border-radius: 10px;
           }
           h1 {
               text-align: center;
@@ -37,6 +38,13 @@
               padding: 15px;
               border-radius: 5px;
               font-size: 18px;
+              display: flex;
+              align-items: center;
+          }
+          li img {
+              width: 30px;
+              height: 30px;
+              margin-right: 10px;
           }
       </style>
   </head>
@@ -44,10 +52,22 @@
       <div class="container">
           <h1>My Skills</h1>
           <ul>
-              <li>Python</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
+              <li>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                  Python
+              </li>
+              <li>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                  HTML
+              </li>
+              <li>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                  CSS
+              </li>
+              <li>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                  JavaScript
+              </li>
           </ul>
       </div>
   </body>
